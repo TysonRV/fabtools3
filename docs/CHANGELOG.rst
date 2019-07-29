@@ -18,7 +18,7 @@ Version 0.19.0 (2014-07-05)
     * add a ``checkinstall`` flasg to build and install a distribution package
       when installing from source (Fabien Meghazi)
 * Arch Linux improvements:
-    * add support for the ManjaroLinux variant (Gaëtan Lamothe)
+    * add support for the ManjaroLinux variant (Gaetan Lamothe)
     * fixsupport for ``setuptools`` (Robin Lambertz)
     * fix support for ``supervisor`` (Robin Lambertz)
     * recognize all known distribution IDs and normalize them to ``Arch``
@@ -125,7 +125,7 @@ Version 0.16.0 (2013-10-26)
 * Fix require.system.locale() on fresh Ubuntu systems
 * Add optional environment variables in crontab
 * Fix crontab permissions
-* Allow special characters in MySQL password (Régis Behmo)
+* Allow special characters in MySQL password (Regis Behmo)
 * Fix bug with some services not starting correctly (Chris Marinos)
 * Add ``getdevice_by_uuid`` to the disk module (Bruno Adele)
 * Fix implicit directory name in ``git.working_copy`` (iiie)
@@ -160,10 +160,10 @@ Version 0.15.0 (2013-07-25)
 * Oracle JDK improvements:
     * Upgrade default version to 7u25-b15 (Sebastien Beal)
     * Fix Oracle JDK version parsing when OpenJDK is installed
-    * Fix Oracle JDK installation on Debian squeeze (Stéphane Klein)
-* Better tests documentation (thanks to Stéphane Klein)
+    * Fix Oracle JDK installation on Debian squeeze (Stephane Klein)
+* Better tests documentation (thanks to Stephane Klein)
 * Add require.directories() (Edouard de Labareyre)
-* Add support for Apache web server (Stéphane Klein)
+* Add support for Apache web server (Stephane Klein)
 * Upgrade default Node.js version to 0.10.13
 
 Version 0.14.0 (2013-05-22)
@@ -242,19 +242,19 @@ Version 0.11.0 (2013-02-15)
 Version 0.10.0 (2013-02-12)
 ---------------------------
 
-* Enable/disable nginx sites (thanks to Sébastien Béal)
+* Enable/disable nginx sites (thanks to Sebastien Beal)
 * Add support for SmartOS (thanks to Anthony Scalisi)
 * Add support for RHEL/CentOS/SL (thanks to Anthony Scalisi)
 
 Version 0.9.4 (2013-01-10)
 --------------------------
 
-* Add files missing in 0.9.3 (thanks to Stéfane Fermigier)
+* Add files missing in 0.9.3 (thanks to Stefane Fermigier)
 
 Version 0.9.3 (2013-01-08)
 --------------------------
 
-* Fix bugs in user creation (thanks pahaz and Stéphane Klein)
+* Fix bugs in user creation (thanks pahaz and Stephane Klein)
 * Add support for group creation
 
 Version 0.9.2 (2013-01-05)
@@ -278,7 +278,7 @@ Version 0.9.0 (2013-01-04)
 * Add ``reload`` and ``force_reload`` operations to the ``service``
   module (thanks to Axel Haustant)
 * Fix missing import in ``require.redis`` (thanks to svevang
-  and Sébastien Béal)
+  and Sebastien Beal)
 * Add ``clear`` option to Python virtualenv (thanks to pahaz)
 * Upgrade default Redis version to 2.6.7
 * Upgrade default Node.js version to 0.8.16
@@ -294,7 +294,7 @@ Version 0.8.1 (2012-10-26)
 Version 0.8.0 (2012-10-26)
 --------------------------
 
-* Improve user module (thanks to Gaël Pasgrimaud)
+* Improve user module (thanks to Gael Pasgrimaud)
 * Fix locale support on Debian (thanks to Olivier Kautz)
 * Fix version number in documentation (thanks to Guillaume Ayoub)
 * Fix potential issue with pip version parsing
